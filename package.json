@@ -1,0 +1,26 @@
+{
+  "name": "resource-api",
+  "version": "1.0.0",
+  "description": "Read & Write API Resources with Database Connections (MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server",
+    "dev": "nodemon ./src/server"
+  },
+  "keywords": [
+    "Resource",
+    "API",
+    "Read",
+    "Write",
+    "MySQL"
+  ],
+  "author": "Fatahillah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  }
+}
